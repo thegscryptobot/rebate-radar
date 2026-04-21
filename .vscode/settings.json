@@ -1,0 +1,24 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "PowerShell": {
+      "path": "pwsh.exe",
+      "args": []
+    }
+  },
+  "terminal.integrated.enablePersistentSessions": true,
+  "terminal.integrated.persistentSessionReviveProcess": "onExit",
+  "workbench.panel.defaultLocation": "bottom",
+  "python.defaultInterpreterPath": "python",
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  }
+}
